@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:icon="@android:drawable/ic_menu_more">
+    <item
+        android:id="@+id/menu_sortBy"
+        android:title="Сортировать по" >
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/submenu_sortByAlphabet"
+                    android:title="Алфавиту" />
+                <item
+                    android:id="@+id/submenu_sortByAmount"
+                    android:title="Стоимости" />
+            </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/menu_resetSort"
+        android:title="Сбросить сортировку" />
+</menu>

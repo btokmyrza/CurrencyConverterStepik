@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_chat">
+
+    <fragment
+        android:id="@+id/navigation_chat"
+        android:name="kz.btokmyrza.currencyconverterv2.presentation.fragments.chat.ChatFragment"
+        android:label="Translator"
+        tools:layout="@layout/fragment_chat">
+        <deepLink
+            app:action="android.intent.action.VIEW"
+            app:uri="btokmyrza.kz/chat" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_favorites"
+        android:name="kz.btokmyrza.currencyconverterv2.presentation.fragments.history.HistoryFragment"
+        android:label="Favorites"
+        tools:layout="@layout/fragment_history" >
+        <action
+            android:id="@+id/action_navigation_favorites_to_movieDetailsFragment"
+            app:destination="@id/movieDetailsFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <deepLink
+            app:action="android.intent.action.VIEW"
+            app:uri="btokmyrza.kz/favorites" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_converter"
+        android:name="kz.btokmyrza.currencyconverterv2.presentation.fragments.convertor.ConvertorFragment"
+        android:label="Converter"
+        tools:layout="@layout/fragment_converter" >
+        <deepLink
+            app:action="android.intent.action.VIEW"
+            app:uri="btokmyrza.kz/converter" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="kz.btokmyrza.currencyconverterv2.presentation.fragments.search.SearchFragment"
+        android:label="Search"
+        tools:layout="@layout/fragment_search" >
+        <deepLink
+            app:action="android.intent.action.VIEW"
+            app:uri="btokmyrza.kz/search" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_personal_page"
+        android:name="kz.btokmyrza.currencyconverterv2.presentation.fragments.personal_page.PersonalPageFragment"
+        android:label="Personal Page"
+        tools:layout="@layout/fragment_personal_page" >
+        <deepLink
+            app:action="android.intent.action.VIEW"
+            app:uri="btokmyrza.kz/personal_page" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/movieDetailsFragment"
+        android:name="kz.btokmyrza.currencyconverterv2.presentation.fragments.history.MovieDetailsFragment"
+        android:label="fragment_movie_details"
+        tools:layout="@layout/fragment_movie_details" >
+        <deepLink
+            app:action="android.intent.action.VIEW"
+            app:uri="btokmyrza.kz/movieDetails" />
+    </fragment>
+
+</navigation>

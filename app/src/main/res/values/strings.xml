@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">CurrencyConverterV2</string>
+    <string name="add_button_text">+ Добавить</string>
+    <string name="cancel_button_text">Отмена</string>
+    <string name="delete_button_text">Удалить</string>
+    <string name="delete_dialog">Вы уверены, что хотите удалить валюту?</string>
+    <string name="delete_button">Delete Button</string>
+    <string name="currency_flag">Currency Flag</string>
+    <string name="currency_name">Currency Name</string>
+    <string name="bottom_bar_translate">Translate</string>
+    <string name="bottom_bar_favorite">Favorite</string>
+    <string name="bottom_bar_converter">Converter</string>
+    <string name="bottom_bar_search">Search</string>
+    <string name="bottom_bar_personal_page">Personal Page</string>
+
+    <string name="pin_code_text"> Введите код</string>
+    <string name="pin_button_1">1</string>
+    <string name="pin_button_2">2</string>
+    <string name="pin_button_3">3</string>
+    <string name="pin_button_4">4</string>
+    <string name="pin_button_5">5</string>
+    <string name="pin_button_6">6</string>
+    <string name="pin_button_7">7</string>
+    <string name="pin_button_8">8</string>
+    <string name="pin_button_9">9</string>
+    <string name="pin_button_delete"><![CDATA[<]]></string>
+    <string name="pin_button_0">0</string>
+    <string name="pin_button_ok">OK</string>
+    <string name="full_name">Batyrkhan Tokmyrza</string>
+    <string name="email">btokmyrza@gmail.com</string>
+    <string name="start_camera">Запустить камеру</string>
+    <string name="call">Позвонить</string>
+    <string name="send_by_email">Отправить по почте</string>
+    <string name="share">Поделиться</string>
+    <string name="image_avatar_content_description">Personal Avatar</string>
+
+    <string name="conversion_amount">Кол конвертации:</string>
+    <string name="time_spent">Проведенное время:</string>
+    <string name="one_more_tab">Я в своем познании настолько преисполнился, что я как будто бы уже сто триллионов миллиардов лет проживаю на триллионах и триллионах таких же планет, как эта Земля, мне этот мир абсолютно понятен, и я здесь ищу только одного - покоя, умиротворения и вот этой гармонии, от слияния с бесконечно вечным, от созерцания великого фрактального подобия и от вот этого замечательного всеединства существа, бесконечно вечного, куда ни посмотри, хоть вглубь - бесконечно малое, хоть ввысь - бесконечное большое, понимаешь? А ты мне опять со своим вот этим, иди суетись дальше, это твоё распределение, это твой путь и твой горизонт познания и ощущения твоей природы, он несоизмеримо мелок по сравнению с моим, понимаешь? Я как будто бы уже давно глубокий старец, бессмертный, ну или там уже почти бессмертный, который на этой планете от её самого зарождения, ещё когда только Солнце только-только сформировалось как звезда, и вот это газопылевое облако, вот, после взрыва, Солнца, когда оно вспыхнуло, как звезда, начало формировать вот эти коацерваты, планеты, понимаешь, я на этой Земле уже как будто почти пять миллиардов лет живу и знаю её вдоль и поперёк этот весь мир, а ты мне какие-то… мне не важно на твои тачки, на твои яхты, на твои квартиры, там, на твоё благо. Я был на этой планете бесконечным множеством, и круче Цезаря, и круче Гитлера, и круче всех великих, понимаешь, был, а где-то был конченым говном, ещё хуже, чем здесь. Я множество этих состояний чувствую. Где-то я был больше подобен растению, где-то я больше был подобен птице, там, червю, где-то был просто сгусток камня, это всё есть душа, понимаешь? Она имеет грани подобия совершенно многообразные, бесконечное множество. Но тебе этого не понять, поэтому ты езжай себе , мы в этом мире как бы живем разными ощущениями и разными стремлениями, соответственно, разное наше и место, разное и наше распределение. Тебе я желаю все самые крутые тачки чтоб были у тебя, и все самые лучше самки, если мало идей, обращайся ко мне, я тебе на каждую твою идею предложу сотню триллионов, как всё делать. Ну а я всё, я иду как глубокий старец,узревший вечное, прикоснувшийся к Божественному, сам стал богоподобен и устремлен в это бесконечное, и который в умиротворении, покое, гармонии, благодати, в этом сокровенном блаженстве пребывает, вовлеченный во всё и во вся, понимаешь, вот и всё, в этом наша разница. Так что я иду любоваться мирозданием, а ты идёшь преисполняться в ГРАНЯХ каких-то, вот и вся разница, понимаешь, ты не зришь это вечное бесконечное, оно тебе не нужно. Ну зато ты, так сказать, более активен, как вот этот дятел долбящий, или муравей, который очень активен в своей стезе, поэтому давай, наши пути здесь, конечно, имеют грани подобия, потому что всё едино, но я-то тебя прекрасно понимаю, а вот ты меня - вряд ли, потому что я как бы тебя в себе содержу, всю твою природу, она составляет одну маленькую там песчиночку, от того что есть во мне, вот и всё, поэтому давай, ступай, езжай, а я пошел наслаждаться прекрасным осенним закатом на берегу теплой южной реки. Всё, ступай, и я пойду.</string>
+    <string name="video_title">Komedıia \"Akim\" 2020</string>
+    <string name="video_description">Молодого мажора по имени Азамат, привыкшего к комфортной городской жизни, по стечению непредвиденных обстоятельств, отправляют работать Акимом в отдаленный посёлок - Таза Булак. ... С первого дня пребывания в ауле, новоиспечённый Аким мечтает о том, чтобы вернуться в город.</string>
+    <string name="video_content_description">Video</string>
+    <string name="bottom_sheet_add_currency">Добавить валюту</string>
+    <string name="choose_flag">Выбрать флаг</string>
+    <string name="add_currency">Добавить</string>
+    <string name="currency_rate">Кол-во тенге в валюте</string>
+    <string name="tenge">Тенге, Казахстан</string>
+    <string name="add_currency_button">Add currency button</string>
+    <string name="hint_tenge_amount">0.0</string>
+    <string name="search">Іzdeý</string>
+    <string name="play_button">Play</string>
+    <string name="qazaqsha_podkast">Qazaqsha podkast</string>
+    <string name="akim">Akim</string>
+    <string name="vin_diesel">Vin Diesel</string>
+    <string name="send_message">Send Message</string>
+    <string name="type_your_message">Type your message...</string>
+    <string name="kazakhstan_tenge">Казахстан, тенге</string>
+
+    <string-array name="currency_codes">
+        <item>TRY</item>
+        <item>EUR</item>
+        <item>USD</item>
+        <item>GBP</item>
+        <item>RUB</item>
+        <item>JPY</item>
+        <item>CHF</item>
+        <item>SGD</item>
+    </string-array>
+</resources>

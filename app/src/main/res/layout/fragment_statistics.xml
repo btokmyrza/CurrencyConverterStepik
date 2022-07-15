@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".presentation.fragments.personal_page.subsections.StatisticsFragment">
+
+    <TextView
+        android:id="@+id/text_conversion_amount"
+        style="@style/statistics_tab_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/conversion_amount"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/number_conversion_amount"
+        style="@style/statistics_tab_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:text="23423" />
+
+    <TextView
+        android:id="@+id/text_time_spent"
+        style="@style/statistics_tab_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/text_conversion_amount"
+        android:text="@string/time_spent" />
+
+    <TextView
+        android:id="@+id/number_time_spent"
+        style="@style/statistics_tab_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/number_conversion_amount"
+        android:text="51 мин" />
+
+</RelativeLayout>

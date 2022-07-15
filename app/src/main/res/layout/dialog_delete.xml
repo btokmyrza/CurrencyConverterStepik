@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    >
+
+    <TextView
+        android:id="@+id/tvConfirmDeletion"
+        style="@style/delete_dialog_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="12dp"
+        android:text="@string/delete_dialog" />
+
+    <Button
+        android:id="@+id/btnCancelDeletion"
+        style="@style/delete_dialog_button"
+        android:layout_below="@id/tvConfirmDeletion"
+        android:layout_alignParentStart="true"
+        android:text="@string/cancel_button_text"
+        />
+
+    <Button
+        android:id="@+id/btnConfirmDeletion"
+        style="@style/delete_dialog_button"
+        android:layout_below="@id/tvConfirmDeletion"
+        android:layout_alignParentEnd="true"
+        android:text="@string/delete_button_text"
+        />
+
+</RelativeLayout>

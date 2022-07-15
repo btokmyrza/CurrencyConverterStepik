@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1037702996193",
+    "firebase_url": "https://currency-converter-stepik-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "currency-converter-stepik",
+    "storage_bucket": "currency-converter-stepik.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1037702996193:android:5775b06d8c3486683e97a0",
+        "android_client_info": {
+          "package_name": "kz.btokmyrza.currencyconverterv2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1037702996193-vsdhm606na05u3u5vc4bvg5qtpt6jjqj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmh0PewRc1vIPfZm3eQQtjyM7-yKZQw3w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1037702996193-vsdhm606na05u3u5vc4bvg5qtpt6jjqj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

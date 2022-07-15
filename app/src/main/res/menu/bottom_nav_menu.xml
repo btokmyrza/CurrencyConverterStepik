@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_chat"
+        android:enabled="true"
+        android:checked="false"
+        android:icon="@drawable/icon_translator_page"
+        android:title="" />
+    <item
+        android:id="@+id/navigation_favorites"
+        android:enabled="true"
+        android:checked="false"
+        android:icon="@drawable/icon_favorites_page"
+        android:title="" />
+    <item
+        android:id="@+id/navigation_converter"
+        android:enabled="true"
+        android:checked="true"
+        android:icon="@drawable/icon_converter_page"
+        android:title="" />
+    <item
+        android:id="@+id/navigation_search"
+        android:enabled="true"
+        android:checked="false"
+        android:icon="@drawable/icon_search_page"
+        android:title="" />
+    <item
+        android:id="@+id/navigation_personal_page"
+        android:enabled="true"
+        android:checked="false"
+        android:icon="@drawable/icon_personal_page"
+        android:title="" />
+</menu>

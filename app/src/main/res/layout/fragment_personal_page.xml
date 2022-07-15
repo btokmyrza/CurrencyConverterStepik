@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".presentation.fragments.personal_page.PersonalPageFragment">
+
+    <ImageView
+        android:id="@+id/image_avatar"
+        android:layout_width="220dp"
+        android:layout_height="175dp"
+        android:src="@drawable/harold_cropped"
+        android:contentDescription="@string/image_avatar_content_description" />
+
+    <TextView
+        android:id="@+id/text_fullName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/full_name"
+        android:textAlignment="center"
+        style="@style/personal_page_text" />
+
+    <TextView
+        android:id="@+id/text_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/email"
+        android:textAlignment="center"
+        style="@style/personal_page_text" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/viewPagerTabLayout"
+        style="@style/TabTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabMode="scrollable"
+        app:tabGravity="center"
+        app:tabMinWidth="175dp" />
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp" />
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/button_share"
+        style="@style/personal_page_button"
+        android:text="@string/share" />
+
+    <Button
+        android:id="@+id/button_sendByEmail"
+        style="@style/personal_page_button"
+        android:text="@string/send_by_email" />
+
+    <Button
+        android:id="@+id/button_call"
+        style="@style/personal_page_button"
+        android:text="@string/call" />
+
+    <Button
+        android:id="@+id/button_startCamera"
+        style="@style/personal_page_button"
+        android:text="@string/start_camera" />
+
+</LinearLayout>
